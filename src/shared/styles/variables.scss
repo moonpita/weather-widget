@@ -1,0 +1,31 @@
+@mixin font-h1 {
+  font-size: 42px;
+  font-weight: 600;
+}
+@mixin font-h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+@mixin font-1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+@mixin font-2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@mixin font-3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@mixin font-4 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+$red: #f21111;
+$lightGray: #f5f0f0;

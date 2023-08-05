@@ -1,0 +1,16 @@
+@import './reset.scss';
+@import './variables.scss';
+
+
+button {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  @include font-3;
+  line-height: 1.35;
+  color: #333;
+}
